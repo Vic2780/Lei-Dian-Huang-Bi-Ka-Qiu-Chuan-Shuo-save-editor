@@ -14,9 +14,8 @@ but this shouldn't cause problems, and using the move enough or healing at the P
 
 Kyogre, Groudon, and Rayquaza can't normally be obtained, but you can edit them in if you want.
 i didn't add Missingno (looks like a "?") to the editor because it's not friendly (breaks the game).
-
-
-Credits:
+<br><hr><br>
+Credits:<br>
 checksum logic is followed from Inkbox on YouTube.
 they made the getRareCandy.py, i adapted it for some other items.
 i also used their <a href="https://www.youtube.com/watch?v=WJmAl2DNvU8">video</a> for the completePokedex.py.
