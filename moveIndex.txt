@@ -1,0 +1,177 @@
+FF,(None)
+00,Ember
+01,Flame Wheel
+02,Fire Punch
+03,Flamethrower
+04,Sacred Fire
+05,Fire Blast
+06,Eruption
+07,Will-O-Wisp
+08,Bubble
+09,Water Gun
+0A,Water Pulse
+0B,Bubblebeam
+0C,Octazooka
+0D,Crabhammer
+0E,Surf
+0F,Hydro Pump
+10,Water Spout
+11,Clamp
+12,Withdraw
+13,Thundershock
+14,Shock Wave
+15,Spark
+16,Thunder Punch
+17,Thunderbolt
+18,Zap Cannon
+19,Volt Tackle
+1A,Thunder
+1B,Thunder Wave
+1C,Absorb
+1D,Mega Drain
+1E,Giga Drain
+1F,Vine Whip
+20,Razor Leaf
+21,Magical Leaf
+22,Leaf Blade
+23,SolarBeam
+24,Frenzy Plant
+25,Grasswhistle
+26,Sleep Powder
+27,Spore
+28,Stun Spore
+29,Power Snow
+2A,Icy Wind
+2B,Aurora Beam
+2C,Ice Punch
+2D,Ice Beam
+2E,Blizzard
+2F,Sheer Cold
+30,Mud Slap
+31,Mud Shot
+32,Dig
+33,Bone Club
+34,Earthquake
+35,Bonemerang
+36,Fissure
+37,Sand Attack
+38,Rock Throw
+39,Rock Tomb
+3A,AncientPower
+3B,Rock Slide
+3C,Leech Life
+3D,Twineedle
+3E,Silver Wind
+3F,Signal Beam
+40,Megahorn
+41,Tail Glow
+42,String Shot
+43,Poison Sting
+44,Smog
+45,Acid
+46,Poison Tail
+47,Poison Fang
+48,Sludge
+49,Sludge Bomb
+4A,Poison Gas
+4B,PoisonPowder
+4C,Toxic
+4D,Rock Smash
+4E,Mach Punch
+4F,Karate Chop
+50,Low Kick
+51,Double Kick
+52,Rolling Kick
+53,Vital Throw
+54,Jump Kick
+55,Brick Break
+56,Sky Uppercut
+57,Cross Chop
+58,DynamicPunch
+59,Superpower
+5A,Focus Punch
+5B,Peck
+5C,Gust
+5D,Air Cutter
+5E,Wing Attack
+5F,Aerial Ace
+60,Fly
+61,Drill Peck
+62,Bounce
+63,Aeroblast
+64,Sky Attack
+65,Confusion
+66,Psybeam
+67,Mist Ball
+68,Extrasensory
+69,Future Sight
+6A,Psychic
+6B,Dream Eater
+6C,Psycho Boost
+6D,Hypnosis
+6E,Rest
+6F,Teleport
+70,Calm Mind
+71,Agility
+72,Lick
+73,Astonish
+74,Shadow Punch
+75,Shadow Ball
+76,Nightmare
+77,Confuse Ray
+78,Twister
+79,Dragon Rage
+7A,DragonBreath
+7B,Dragon Claw
+7C,Outrage
+7D,Dragon Dance
+7E,Knock Off
+7F,Pursuit
+80,Bite
+81,Crunch
+82,Metal Claw
+83,Steel Wing
+84,Iron Tail
+85,Meteor Mash
+86,Iron Defense
+87,Splash
+88,SonicBoom
+89,Tackle
+8A,False Swipe
+8B,Scratch
+8C,Quick Attack
+8D,Pay Day
+8E,Snore
+8F,Cut
+90,Swift
+91,Horn Attack
+92,Crush Claw
+93,Secret Power
+94,Hyper Fang
+95,Tri Attack
+96,Double-Edge
+97,Hyper Beam
+98,Selfdestruct
+99,Explosion
+9A,Horn Drill
+9B,Guillotine
+9C,Sing
+9D,Lovely Kiss
+9E,Supersonic
+9F,Sword Dance
+A0,Growl
+A1,Charm
+A2,Defense Curl
+A3,Harden
+A4,Tail Whip
+A5,Tickle
+A6,SmokeScreen
+A7,Flash
+A8,Double Team
+A9,Recover
+AA,Encore
+AB,Roar
+AC,Whirlwind
+AD,Transform
+AE,Curse
+AF,Strength
