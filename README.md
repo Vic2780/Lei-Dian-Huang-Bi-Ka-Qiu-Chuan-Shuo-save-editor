@@ -19,7 +19,7 @@ Credits:<br>
 checksum logic is followed from Inkbox on YouTube.
 they made the getRareCandy.py, i adapted it for some other items.
 i also used their <a href="https://www.youtube.com/watch?v=WJmAl2DNvU8">video</a> for the completePokedex.py.
-for the Pokédex and item scripts, you need to manually put edit in the input and output file names.
+for the Pokédex and item scripts, you need to manually edit in the input and output file names.
 put the save file to edit in the same directory and edit the name into the py file.
 
 i used the English names and move indexes from a spreadsheet by "Kingpepe".
