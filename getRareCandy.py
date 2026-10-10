@@ -9,7 +9,6 @@ def readModifyBinFile(inputFilePath, outputFilePath):
         #increase rare candy
         data[0x0CE1] = 255  #number of rare candies
 
-
         #calculate checksum
         checksum = 0
         c = 0   #carry bit

@@ -1,7 +1,6 @@
 inputFilePath = 'INPUT FILE HERE.sav'
 outputFilePath = 'OUTPUT FILE HERE.sav'
 
-
 def readModifyBinFile(inputFilePath, outputFilePath):
     try:
         with open(inputFilePath, 'rb') as inputFile:

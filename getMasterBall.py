@@ -7,8 +7,7 @@ def readModifyBinFile(inputFilePath, outputFilePath):
             data = bytearray(inputFile.read())
         
         #increase master ball
-        data[0x0CD3] = 90  #number of master balls
-
+        data[0x0CD3] = 90  #number of master balls (can technically be 255 but three digit has bad visual impact)
 
         #calculate checksum
         checksum = 0
