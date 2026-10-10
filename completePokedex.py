@@ -1,24 +1,27 @@
 inputFilePath = 'INPUT FILE HERE.sav'
 outputFilePath = 'OUTPUT FILE HERE.sav'
 
-
 def readModifyBinFile(inputFilePath, outputFilePath):
     try:
         with open(inputFilePath, 'rb') as inputFile:
             data = bytearray(inputFile.read())
 
-        # Unlock Pokédex
-        maxVal = 150              # Technical max is 159
+        maxVal = 159 # target number of Pokédex entries
+        data[0x0C31] = maxVal  # seen
+        data[0x0C32] = maxVal  # caught
+        data[0x0CC8] = maxVal  # maximum seen
 
-        data[0x0C31] = maxVal     # Pokémon discovered
-        data[0x0C32] = maxVal     # Pokémon captured
-        data[0x0CC8] = maxVal     # Maximum seen in Pokédex
+        # set Pokémon 1–152 as caught
+        data[0x0C9F:0x0CB2] = b'\xFF' * 19
+        # set Pokémon 153–159 as caught
+        data[0x0CB2] = 0x7F #in a naturally completed save, this will instead be 0x0F
 
-        # Set Pokédex data
-        for i in range(0x0CB3, 0x0CC7):
-            data[i] = 255
+        # set Pokémon 1–152 as seen
+        data[0x0CB3:0x0CC6] = b'\xFF' * 19
+        # set Pokémon 153–159 as seen
+        data[0x0CC6] = 0x7F
 
-        # Calculate checksum
+        # calculate checksum
         checksum = 0
         c = 0
 
