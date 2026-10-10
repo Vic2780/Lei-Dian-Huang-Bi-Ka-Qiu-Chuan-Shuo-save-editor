@@ -8,7 +8,7 @@ def readModifyBinFile(inputFilePath, outputFilePath):
 
         maxVal = 159 # target number of Pokédex entries
         data[0x0C31] = maxVal  # seen
-        data[0x0C32] = maxVal  # caught
+        data[0x0C32] = maxVal  # caught, in a naturally completed save, this will instead be 156
         data[0x0CC8] = maxVal  # maximum seen
 
         # set Pokémon 1–152 as caught
